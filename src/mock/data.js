@@ -10,48 +10,90 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
+  name: 'Aneta',
+  subtitle: `I'm the Web Developer`,
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profilePhoto.jpg',
+  paragraphOne:
+    'Open and easy-going person highly oriented to improve my skills. ' +
+    'Perfectly finding myself in a teamwork. ' +
+    'Since graduated psychology I decided to rather debug code then people psychics. ',
+  paragraphTwo: 'Frontend is a way to vent my ideas and creativity.',
+  paragraphThree: 'During my free time I sew and train my dog.',
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'plantswife.png',
+    title: 'Plantswife',
+    info:
+      'Plantswife is the mobile app for managing a houseplant jungle. ' +
+      'Allows to keep all your plants data in one place, easily add, edit or delete elements. ' +
+      'Buttons facilitate quick next plant watering, spraing or feeding update. You do not have to remember dates, app will do it for you. ' +
+      'Adding plants photos help monitoring their growth and finding in you own plants database. ' +
+      'You can finally say goodbay to shed or withered plants. ' +
+      'Enjoy beautiful home jungle and free your mind!',
+    info2: 'React, JavaScript, SCSS',
+    url: '',
+    repo: 'https://github.com/anetSzajo/plantswife', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'fishkey.png',
+    title: 'FishKey',
+    info:
+      'Fishkey is a simple app for learning new concepts using five boxes flashcard method. ' +
+      'Flashcard is a small card with question on obverse and answer on reverse. Flip the card to get correct answer. ' +
+      'The aim of the method is to train each flashcard five times stepping by all box stages. Using app you can create your own flashacards assiged to categories. ' +
+      'Every new flashcard goes to the first box. After clicking correct or wrong button app will count the new flashcard stage and put it in suitable box. ' +
+      'Train your brain and become a real flashcards master!\n' +
+      'App created using Firebase. \n',
+    info2: 'React, JavaScript, TypeScript, SCSS',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'dogapp.png',
+    title: 'Dog App',
+    info:
+      'Wants to buy a dog but have not decided what breed? ' +
+      'Take a second and use DogApp to find all dog breeds and their subbreeds. ' +
+      'Choose one to see some random breed photos. Then just buy a dog. \n' +
+      'App created using the Dog API.',
+    info2: 'React, JavaScript, TypeScript, SCSS',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/anetSzajo/DogApp_TS', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'travelApp.png',
+    title: 'Cross-Dimension Rick Sanchez Travel App',
+    info:
+      'Time for travel? Navigate beetwen dimensions and go for a ride with Rick. ' +
+      'App keeps all dimension stored in one place, allows to filter them by price or dimension name, check place by ID, create new or update the existing one. ' +
+      'App created using the Rick and Morty API.',
+    info2: 'React, JavaScript, CSS',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/anetSzajo/react-travel-app', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'productLandingPage.png',
+    title: 'HTML & CSS Projects',
+    info:
+      'I had to start with something...These are various HTML and CSS projects thanks to which I could practice my skills at the very beginning of my programming way: ' +
+      'Tribute Page, Product Landing Page, Survey Form, Technical Documentation Page, Template of Portfolio and Personal Page, Google Page.',
+    info2: 'HTML, CSS, JavaScript',
+    url: '',
+    repo: 'https://github.com/anetSzajo?tab=repositories', // if no repo, the button will not show up
   },
 ];
 
@@ -59,7 +101,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'aneta@szajowska.net',
 };
 
 // FOOTER DATA
@@ -67,23 +109,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/anetszajo/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/anetSzajo',
     },
   ],
 };
