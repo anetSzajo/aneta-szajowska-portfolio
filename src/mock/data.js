@@ -31,23 +31,8 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'plantswife.png',
-    title: 'Plantswife',
-    info:
-      'Plantswife is the mobile app for managing a houseplant jungle. ' +
-      'Allows to keep all your plants data in one place, easily add, edit or delete elements. ' +
-      'Buttons facilitate quick next plant watering, spraing or feeding update. You do not have to remember dates, app will do it for you. ' +
-      'Adding plants photos help monitoring their growth and finding in you own plants database. ' +
-      'You can finally say goodbay to shed or withered plants. ' +
-      'Enjoy beautiful home jungle and free your mind!',
-    info2: 'React, JavaScript, SCSS',
-    url: '',
-    repo: 'https://github.com/anetSzajo/plantswife', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'fishkey.png',
-    title: 'FishKey',
+    title: 'Fishkey',
     info:
       'Fishkey is a simple app for learning new concepts using five boxes flashcard method. ' +
       'Flashcard is a small card with question on obverse and answer on reverse. Flip the card to get correct answer. ' +
@@ -56,8 +41,8 @@ export const projectsData = [
       'Train your brain and become a real flashcards master!\n' +
       'App created using Firebase. \n',
     info2: 'React, JavaScript, TypeScript, SCSS',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://fishkey-1f7b9.web.app/',
+    repo: 'https://github.com/anetSzajo/fishkey', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -69,19 +54,34 @@ export const projectsData = [
       'Choose one to see some random breed photos. Then just buy a dog. \n' +
       'App created using the Dog API.',
     info2: 'React, JavaScript, TypeScript, SCSS',
-    url: '',
-    repo: 'https://github.com/anetSzajo/DogApp_TS', // if no repo, the button will not show up
+    url: 'https://dogapp.aneta.szajowska.net/',
+    repo: 'https://github.com/anetSzajo/dog-app-ts', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'plantswife.png',
+    title: 'Plantswife',
+    info:
+      'Plantswife is the mobile app for managing a houseplant jungle. ' +
+      'Allows to keep all your plants data in one place, easily add, edit or delete elements. ' +
+      'Buttons facilitate quick next plant watering, spraing or feeding update. You do not have to remember dates, app will do it for you. ' +
+      'Adding plants photos help monitoring their growth and finding in you own plants database. ' +
+      'You can finally say goodbay to shed or withered plants. ' +
+      'Enjoy beautiful home jungle and free your mind!',
+    info2: 'React, JavaScript, SCSS',
+    url: 'https://plantswife.herokuapp.com/',
+    repo: 'https://github.com/anetSzajo/plantswife', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'travelApp.png',
-    title: 'Cross-Dimension Rick Sanchez Travel App',
+    title: 'Cross-Dimension Travel App',
     info:
       'Time for travel? Navigate beetwen dimensions and go for a ride with Rick. ' +
       'App keeps all dimension stored in one place, allows to filter them by price or dimension name, check place by ID, create new or update the existing one. ' +
       'App created using the Rick and Morty API.',
     info2: 'React, JavaScript, CSS',
-    url: '',
+    url: 'https://travel-app.aneta.szajowska.net/',
     repo: 'https://github.com/anetSzajo/react-travel-app', // if no repo, the button will not show up
   },
   {
@@ -90,10 +90,10 @@ export const projectsData = [
     title: 'HTML & CSS Projects',
     info:
       'I had to start with something...These are various HTML and CSS projects thanks to which I could practice my skills at the very beginning of my programming way: ' +
-      'Tribute Page, Product Landing Page, Survey Form, Technical Documentation Page, Template of Portfolio and Personal Page, Google Page.',
+      'Product Landing Page, Tribute Page, Survey Form, Technical Documentation Page, Exemplary Template of Portfolio and Personal Page, Google Page.',
     info2: 'HTML, CSS, JavaScript',
-    url: '',
-    repo: 'https://github.com/anetSzajo?tab=repositories', // if no repo, the button will not show up
+    url: 'https://landing-page.aneta.szajowska.net',
+    repo: 'https://github.com/anetSzajo/product-landing-page', // if no repo, the button will not show up
   },
 ];
 
