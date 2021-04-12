@@ -21,9 +21,8 @@ export const aboutData = {
   paragraphOne:
     'Open and easy-going person highly oriented to improve my skills. ' +
     'Perfectly finding myself in a teamwork, appreciate new challenges and constructive feedback. ' +
-    'Want more from live and expanding my horizons on daily basis. ' +
-    'Since graduated psychology I decided to rather debug code then people psychics. ' +
-    'Using my problem solving methods I run four projects. ' +
+    'Want more from life and expanding my horizons on daily basis. ' +
+    'Since graduated psychology I decided to rather debug code than people minds. ' +
     'Chosen frontend as a way to vent my ideas, creativity and big passion for Flex and SASS.' +
     'Now I am looking forward to the Junior Frontend Developer position and opportunity to master my skills under the watchful eye of professional developers. ',
   paragraphTwo:
@@ -56,7 +55,7 @@ export const projectsData = [
     info:
       'Wants to buy a dog but have not decided what breed? ' +
       'Take a second and use DogApp to find all dog breeds and their subbreeds. ' +
-      'Choose one to see some random breed photos. Then just buy a dog. \n' +
+      'Choose one to view some random breed photos. Then just buy a dog. \n' +
       'App created using the Dog API.',
     info2: 'React, JavaScript, TypeScript, SCSS',
     url: 'https://dogapp.aneta.szajowska.net/',
