@@ -70,8 +70,8 @@ export const projectsData = [
       'Plantswife is the mobile app for managing a houseplant jungle. ' +
       'Allows to keep all your plants data in one place, easily add, edit or delete elements. ' +
       'Buttons facilitate quick next plant watering, spraing or feeding update. You do not have to remember dates, app will do it for you. ' +
-      'Adding plants photos help monitoring their growth and finding in you own plants database. ' +
-      'You can finally say goodbay to shed or withered plants. ' +
+      `Adding plants photos help to monitor their growth and find in you own plants' database. ` +
+      'You can finally say goodbye to shed or withered plants. ' +
       'Enjoy beautiful home jungle and free your mind!',
     info2: 'React, JavaScript, SCSS',
     url: 'https://plantswife.herokuapp.com/',
