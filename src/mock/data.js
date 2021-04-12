@@ -20,9 +20,14 @@ export const aboutData = {
   img: 'profilePhoto.jpg',
   paragraphOne:
     'Open and easy-going person highly oriented to improve my skills. ' +
-    'Perfectly finding myself in a teamwork. ' +
-    'Since graduated psychology I decided to rather debug code then people psychics. ',
-  paragraphTwo: 'Frontend is a way to vent my ideas and creativity.',
+    'Perfectly finding myself in a teamwork, appreciate new challenges and constructive feedback. ' +
+    'Want more from live and expanding my horizons on daily basis. ' +
+    'Since graduated psychology I decided to rather debug code then people psychics. ' +
+    'Using my problem solving methods I run four projects. ' +
+    'Chosen frontend as a way to vent my ideas, creativity and big passion for Flex and SASS.' +
+    'Now I am looking forward to the Junior Frontend Developer position and opportunity to master my skills under the watchful eye of professional developers. ',
+  paragraphTwo:
+    'I work with technologies such as JavaScript, React, TypeScript, REST API, CSS (incl. Flex, Grid & SASS), HTML, GIT.',
   paragraphThree: 'During my free time I sew and train my dog.',
   resume: '', // if no resume, the button will not show up
 };
@@ -35,8 +40,8 @@ export const projectsData = [
     title: 'Fishkey',
     info:
       'Fishkey is a simple app for learning new concepts using five boxes flashcard method. ' +
-      'Flashcard is a small card with question on obverse and answer on reverse. Flip the card to get correct answer. ' +
-      'The aim of the method is to train each flashcard five times stepping by all box stages. Using app you can create your own flashacards assiged to categories. ' +
+      'Flashcard is a small card with question on obverse and answer on reverse. Flip the card to get the correct answer. ' +
+      'The aim of the method is to train each flashcard five times stepping by all box stages. Using app you can create your own flashacards assigning them to categories. ' +
       'Every new flashcard goes to the first box. After clicking correct or wrong button app will count the new flashcard stage and put it in suitable box. ' +
       'Train your brain and become a real flashcards master!\n' +
       'App created using Firebase. \n',
@@ -77,8 +82,8 @@ export const projectsData = [
     img: 'travelApp.png',
     title: 'Cross-Dimension Travel App',
     info:
-      'Time for travel? Navigate beetwen dimensions and go for a ride with Rick. ' +
-      'App keeps all dimension stored in one place, allows to filter them by price or dimension name, check place by ID, create new or update the existing one. ' +
+      'Time for travel? Navigate between dimensions and go for a ride with Rick. ' +
+      'App keeps all dimensions stored in one place, allows to filter them by price or dimension name, check place by ID, create new or update the existing one. ' +
       'App created using the Rick and Morty API.',
     info2: 'React, JavaScript, CSS',
     url: 'https://travel-app.aneta.szajowska.net/',
