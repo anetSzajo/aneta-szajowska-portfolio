@@ -28,22 +28,22 @@ export const aboutData = {
   paragraphTwo:
     'I work with technologies such as JavaScript, React, TypeScript, REST API, CSS (incl. Flex, Grid & SASS), HTML, GIT.',
   paragraphThree: 'During my free time I sew and train my dog.',
-  resume: '', // if no resume, the button will not show up
+  resume: '',
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'cook-book.png',
+    img: 'cookBook.png',
     title: 'Cook Book',
-    info:
+    description:
       'Cook Book is a basic cooking app with various recipes. ' +
       'Search for recipe by entering many ingredients. ' +
       'Browse recipes to choose the one to cook and get more information and instruction. ' +
-      'Check last ten searches to quickly get your favourite recipe.\n' +
-      'App created using the Spoonacular API.',
-    info2: 'Next.js, TypeScript, Chakra',
+      'Check last ten searches to quickly get your favourite recipe.',
+    info: 'App created using the Spoonacular API.',
+    technologies: 'Next.js, TypeScript, Chakra',
     url: 'https://cook-book-liart.vercel.app/',
     repo: 'https://github.com/anetSzajo/cook-book',
   },
@@ -51,14 +51,14 @@ export const projectsData = [
     id: nanoid(),
     img: 'fishkey.png',
     title: 'Fishkey',
-    info:
+    description:
       'Fishkey is a simple app for learning new concepts using five boxes flashcard method. ' +
       'Flashcard is a small card with question on obverse and answer on reverse. Flip the card to get the correct answer. ' +
       'The aim of the method is to train each flashcard five times stepping by all box stages. Using app you can create your own flashcards assigning them to categories. ' +
       'Every new flashcard goes to the first box. After clicking correct or wrong button app will count the new flashcard stage and put it in suitable box. ' +
-      'Train your brain and become a real flashcards master!\n' +
-      'App created using Firebase.',
-    info2: 'React, JavaScript, TypeScript, SCSS',
+      'Train your brain and become a real flashcards master!',
+    info: 'App created using Firebase.',
+    technologies: 'React, JavaScript, TypeScript, SCSS',
     url: 'https://fishkey-1f7b9.web.app/',
     repo: 'https://github.com/anetSzajo/fishkey',
   },
@@ -66,12 +66,12 @@ export const projectsData = [
     id: nanoid(),
     img: 'dogapp.png',
     title: 'Dog App',
-    info:
+    description:
       'Wants to buy a dog but have not decided what breed? ' +
       'Take a second and use DogApp to find all dog breeds and their subbreeds. ' +
-      'Choose one to view some random breed photos. Then just buy a dog. \n' +
-      'App created using the Dog API.',
-    info2: 'React, JavaScript, TypeScript, SCSS',
+      'Choose one to view some random breed photos. Then just buy a dog.',
+    info: 'App created using the Dog API.',
+    technologies: 'React, JavaScript, TypeScript, SCSS',
     url: 'https://dogapp.aneta.szajowska.net/',
     repo: 'https://github.com/anetSzajo/dog-app-ts',
   },
@@ -79,14 +79,14 @@ export const projectsData = [
     id: nanoid(),
     img: 'plantswife.png',
     title: 'Plantswife',
-    info:
+    description:
       'Plantswife is the mobile app for managing a houseplant jungle. ' +
       'Allows to keep all your plants data in one place, easily add, edit or delete elements. ' +
       'Buttons facilitate quick next plant watering, spraing or feeding update. You do not have to remember dates, app will do it for you. ' +
       `Adding plants photos help to monitor their growth and find in you own plants' database. ` +
       'You can finally say goodbye to shed or withered plants. ' +
       'Enjoy beautiful home jungle and free your mind!',
-    info2: 'React, JavaScript, SCSS',
+    technologies: 'React, JavaScript, SCSS',
     url: 'https://plantswife.herokuapp.com/',
     repo: 'https://github.com/anetSzajo/plantswife',
   },
@@ -94,11 +94,11 @@ export const projectsData = [
     id: nanoid(),
     img: 'travelApp.png',
     title: 'Cross-Dimension Travel App',
-    info:
+    description:
       'Time for travel? Navigate between dimensions and go for a ride with Rick. ' +
-      'App keeps all dimensions stored in one place, allows to filter them by price or dimension name, check place by ID, create new or update the existing one. ' +
-      'App created using the Rick and Morty API.',
-    info2: 'React, JavaScript, CSS',
+      'App keeps all dimensions stored in one place, allows to filter them by price or dimension name, check place by ID, create new or update the existing one.',
+    info: 'App created using the Rick and Morty API.',
+    technologies: 'React, JavaScript, CSS',
     url: 'https://travel-app.aneta.szajowska.net/',
     repo: 'https://github.com/anetSzajo/react-travel-app',
   },
@@ -106,10 +106,10 @@ export const projectsData = [
     id: nanoid(),
     img: 'productLandingPage.png',
     title: 'HTML & CSS Projects',
-    info:
+    description:
       'I had to start with something...These are various HTML and CSS projects thanks to which I could practice my skills at the very beginning of my programming way: ' +
       'Product Landing Page, Tribute Page, Survey Form, Technical Documentation Page, Exemplary Template of Portfolio and Personal Page, Google Page.',
-    info2: 'HTML, CSS, JavaScript',
+    technologies: 'HTML, CSS, JavaScript',
     url: 'https://landing-page.aneta.szajowska.net',
     repo: 'https://github.com/anetSzajo/product-landing-page',
   },
