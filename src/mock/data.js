@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: 'Hi, my name is',
   name: 'Aneta',
   subtitle: `I'm the Web Developer`,
   cta: '',
@@ -23,7 +23,7 @@ export const aboutData = {
     'Perfectly finding myself in a teamwork, appreciate new challenges and constructive feedback. ' +
     'Want more from life and expanding my horizons on daily basis. ' +
     'Since graduated psychology I decided to rather debug code than people minds. ' +
-    'Chosen frontend as a way to vent my ideas, creativity and big passion for Flex and SASS.' +
+    'Chosen frontend as a way to vent my ideas, creativity and big passion for Flex and SASS. ' +
     'Now I am looking forward to the Junior Frontend Developer position and opportunity to master my skills under the watchful eye of professional developers. ',
   paragraphTwo:
     'I work with technologies such as JavaScript, React, TypeScript, REST API, CSS (incl. Flex, Grid & SASS), HTML, GIT.',
@@ -35,18 +35,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'cook-book.png',
+    title: 'Cook Book',
+    info:
+      'Cook Book is a basic cooking app with various recipes. ' +
+      'Search for recipe by entering many ingredients. ' +
+      'Browse recipes to choose the one to cook and get more information and instruction. ' +
+      'Check last ten searches to quickly get your favourite recipe.\n' +
+      'App created using the Spoonacular API.',
+    info2: 'Next.js, TypeScript, Chakra',
+    url: 'https://cook-book-liart.vercel.app/',
+    repo: 'https://github.com/anetSzajo/cook-book',
+  },
+  {
+    id: nanoid(),
     img: 'fishkey.png',
     title: 'Fishkey',
     info:
       'Fishkey is a simple app for learning new concepts using five boxes flashcard method. ' +
       'Flashcard is a small card with question on obverse and answer on reverse. Flip the card to get the correct answer. ' +
-      'The aim of the method is to train each flashcard five times stepping by all box stages. Using app you can create your own flashacards assigning them to categories. ' +
+      'The aim of the method is to train each flashcard five times stepping by all box stages. Using app you can create your own flashcards assigning them to categories. ' +
       'Every new flashcard goes to the first box. After clicking correct or wrong button app will count the new flashcard stage and put it in suitable box. ' +
       'Train your brain and become a real flashcards master!\n' +
-      'App created using Firebase. \n',
+      'App created using Firebase.',
     info2: 'React, JavaScript, TypeScript, SCSS',
     url: 'https://fishkey-1f7b9.web.app/',
-    repo: 'https://github.com/anetSzajo/fishkey', // if no repo, the button will not show up
+    repo: 'https://github.com/anetSzajo/fishkey',
   },
   {
     id: nanoid(),
@@ -59,7 +73,7 @@ export const projectsData = [
       'App created using the Dog API.',
     info2: 'React, JavaScript, TypeScript, SCSS',
     url: 'https://dogapp.aneta.szajowska.net/',
-    repo: 'https://github.com/anetSzajo/dog-app-ts', // if no repo, the button will not show up
+    repo: 'https://github.com/anetSzajo/dog-app-ts',
   },
   {
     id: nanoid(),
@@ -74,7 +88,7 @@ export const projectsData = [
       'Enjoy beautiful home jungle and free your mind!',
     info2: 'React, JavaScript, SCSS',
     url: 'https://plantswife.herokuapp.com/',
-    repo: 'https://github.com/anetSzajo/plantswife', // if no repo, the button will not show up
+    repo: 'https://github.com/anetSzajo/plantswife',
   },
   {
     id: nanoid(),
@@ -86,7 +100,7 @@ export const projectsData = [
       'App created using the Rick and Morty API.',
     info2: 'React, JavaScript, CSS',
     url: 'https://travel-app.aneta.szajowska.net/',
-    repo: 'https://github.com/anetSzajo/react-travel-app', // if no repo, the button will not show up
+    repo: 'https://github.com/anetSzajo/react-travel-app',
   },
   {
     id: nanoid(),
@@ -97,7 +111,7 @@ export const projectsData = [
       'Product Landing Page, Tribute Page, Survey Form, Technical Documentation Page, Exemplary Template of Portfolio and Personal Page, Google Page.',
     info2: 'HTML, CSS, JavaScript',
     url: 'https://landing-page.aneta.szajowska.net',
-    repo: 'https://github.com/anetSzajo/product-landing-page', // if no repo, the button will not show up
+    repo: 'https://github.com/anetSzajo/product-landing-page',
   },
 ];
 
